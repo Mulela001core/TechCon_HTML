@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact TechCon 2024</title>
+    <title>Contact Us - TechCon 2024</title>
 </head>
 
 <body>
@@ -23,33 +23,62 @@
 
     <main>
 
-        <h2>Get in Touch</h2>
+        <section>
+            <h2>Get in Touch</h2>
 
-        <p>You can reach the TechCon 2024 team using the email link below.  
-        (This includes the required text: <strong>mailto:email@example.com</strong>)</p>
+            <p>Email us anytime at:
+                <a href="mailto:email@example.com">email@example.com</a>
+            </p>
 
-        <p>
-            <a href="mailto:email@example.com" target="_blank">
-                Send us an Email
-            </a>
-        </p>
+            <h3>Follow Us on Social Media</h3>
+            <ul>
+                <li><a href="https://facebook.com" target="_blank">Facebook</a></li>
+                <li><a href="https://twitter.com" target="_blank">Twitter</a></li>
+                <li><a href="https://instagram.com" target="_blank">Instagram</a></li>
+            </ul>
+        </section>
 
-        <h3>Our Location</h3>
+        <section>
+            <h2>Conference Location</h2>
+            <p>Find the TechCon 2024 venue on the interactive map below:</p>
 
-        <!-- Sample iframe with Google Maps -->
-        <iframe 
-            src="https://www.google.com/maps/place/NETHERLANDS+LEPROSY+RELIEF+ASSOCIATION/@0.1022364,37.6279181,839m/data=!3m2!1e3!4b1!4m6!3m5!1s0x1788197c08c3f9a5:0x8e9699d9beb58ef2!8m2!3d0.102231!4d37.630493!16s%2Fg%2F11jmxvx5rx?entry=ttu&g_ep=EgoyMDI1MTExMi4wIKXMDSoASAFQAw%3D%3D"
-            width="600"
-            height="450"
-            style="border:0;"
-            allowfullscreen=""
-            loading="lazy">
-        </iframe>
+            <!-- Responsive Google Map -->
+            <div style="width:100%; max-width:700px;">
+                <iframe
+                    src="https://www.google.com/maps/@-0.0294912,37.5947264,13z?entry=ttu&g_ep=EgoyMDI1MTExMi4wIKXMDSoASAFQAw%3D%3D"
+                    width="100%"
+                    height="350"
+                    style="border:0;"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </section>
+
+        <section>
+            <h2>Contact Us Form</h2>
+
+            <form>
+
+                <label for="name">Your Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Your Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="message">Your Message:</label><br>
+                <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+                <button type="submit">Send Message</button>
+
+            </form>
+        </section>
 
     </main>
 
     <footer>
-        <p>© 2024 My_First_Portfolio — All rights reserved.</p>
+        <p>© 2024 TechCon  — All rights reserved. Copyright</p>
     </footer>
 
 </body>
